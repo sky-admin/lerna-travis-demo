@@ -3,5 +3,5 @@
 module.exports = skyadminDemoPackage1;
 
 function skyadminDemoPackage1() {
-    console.log('hello')
+    console.log('hello1')
 }
