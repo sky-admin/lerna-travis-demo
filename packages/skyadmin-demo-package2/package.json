@@ -1,0 +1,29 @@
+{
+  "name": "skyadmin-demo-package2",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "sky-admin <546485299@qq.com>",
+  "homepage": "https://github.com/sky-admin/lerna-travis-demo#readme",
+  "license": "ISC",
+  "main": "lib/skyadmin-demo-package2.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://npm.intra.xiaojukeji.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sky-admin/lerna-travis-demo.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/sky-admin/lerna-travis-demo/issues"
+  }
+}
