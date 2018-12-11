@@ -2,7 +2,7 @@
   "name": "root",
   "private": false,
   "scripts": {
-    "lerna:publish": "lerna publish from-package"
+    "lerna:publish": "lerna publish from-package --yes"
   },
   "devDependencies": {
     "lerna": "^3.4.3"
