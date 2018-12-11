@@ -15,7 +15,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "http://npm.intra.xiaojukeji.com/"
+    "registry": "https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,5 @@
   "bugs": {
     "url": "https://github.com/sky-admin/lerna-travis-demo/issues"
   },
-  "gitHead": "9ea09c0c0520ff6d7cdfa76f3f9b77cbf317a742"
+  "gitHead": "346265ba5ee24d70fd342b035385a0a4f229bcc1"
 }
