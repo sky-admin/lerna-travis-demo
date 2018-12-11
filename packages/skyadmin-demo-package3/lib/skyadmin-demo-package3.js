@@ -3,5 +3,5 @@
 module.exports = skyadminDemoPackage3;
 
 function skyadminDemoPackage3() {
-    // TODO
+    console.log(1)
 }
