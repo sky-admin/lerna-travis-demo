@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - 11.3.0
+before_deploy:
+  - echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" >> $HOME/.npmrc 2> /dev/null
+deploy:
+  provider: script
+  skip_cleanup: true
+  script:
+    - npx lerna publish
+  on:
+    branch: master
