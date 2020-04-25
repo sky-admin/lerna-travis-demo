@@ -1,2 +1,3 @@
-# lerna-travis-demo
-to test publish package in travis with lerna
+# lerna-ci-demo
+
+test ci with lerna
