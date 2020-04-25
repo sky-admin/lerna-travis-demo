@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - run: echo "hello world"
+    - run: echo hello
 
   - name: GitHub Pages
     uses: crazy-max/ghaction-github-pages@v1.4.0
