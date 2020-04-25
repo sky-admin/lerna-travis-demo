@@ -33,5 +33,5 @@ jobs:
 #        echo test, and deploy your project.
 
     - run: npm run lerna:publish
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+      env:
+        NODE_AUTH_TOKEN: ${{secrets.npm_token}}
