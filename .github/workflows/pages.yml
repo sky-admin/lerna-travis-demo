@@ -24,3 +24,5 @@ jobs:
   #      committer_name: # optional
   #      committer_email: # optional
   #      commit_message: # optional
+      env:
+        GITHUB_PAT: ${{ secrets.doc_pat }}
