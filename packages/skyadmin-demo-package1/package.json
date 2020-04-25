@@ -1,7 +1,7 @@
 {
   "name": "skyadmin-demo-package1",
   "private": false,
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "> TODO: description",
   "author": "sky-admin <546485299@qq.com>",
   "homepage": "https://github.com/sky-admin/lerna-travis-demo#readme",
